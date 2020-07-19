@@ -8,12 +8,12 @@ eureka:
         hostname: localhost
         
 microservice:
-  payment-service:
+  PAYMENTSERVICE:
     endpoints:
       endpoint:
         uri: http://PAYMENTSERVICE/payment/doPayment
 
-  order-service:
+  ORDERNAME:
     endpoints:
       endpoint:
         uri: http://ORDERNAME/order/bookOrder        
